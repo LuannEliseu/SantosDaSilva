@@ -3,50 +3,63 @@
 /* BODY */
 
 body {
+  overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 80vw;
   height: 100vh;
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
 }
 
-/* Centralizar */
-#centralizar {
-  display: flex;
-  border: 0px solid rgb(64, 6, 87);
-  padding: 20px;
-  width: 80%;
-  height: 80%;
-  box-shadow: 0px 0px 8px rgb(145, 142, 142);
-  border-radius: 4px;
-}
+/* HEADER
 
-/* COINTAINER - Left 
-  VULGO BARRA LATERAL
+Parte de cima do site, onde é responsável por toda topbar
+
 */
 
-/* #cointainer-left {
-  flex: 1;
-  border: 1px solid rgb(64, 6, 87);
-  float: left;
-} */
-
-/* COINTAINER - RIGHT 
-    BARRA CIMA + CONTEUDO
-
-*/
-#cointainer-right {
-  flex: 8;
-  border: 1px solid rgb(205, 121, 238);
-  float: right;
-}
-
-/* BARRA DE CIMA */
-#headernav {
+#headerbar {
+  border: 1px solid red;
+  background-color: rgb(124, 122, 122);
+  width: 100vw;
+  color: aliceblue;
+  height: 8vh;
+  justify-content: center;
+  justify-items: center;
   display: flex;
-  border: 1px solid rgb(247, 14, 14);
 }
-/* COINTAINER DE CONTEUDO */
-#cointainer-content {
-  display: inline-block;
+
+#bartop-mid {
   border: 1px solid green;
+  width: 100vw;
+  align-self: center;
+  display: flex;
+}
+
+/* Nome */
+
+#iconmaior {
+  width: 1vw;
+  height: 1vh;
+  color:;
+}
+
+#iconmenor {
+  width: 1vw;
+  height: 1vh;
+}
+
+#nome {
+  padding-left: 15vw;
+}
+
+/* OPCOES TOP BAR */
+
+#navitens {
+  padding-left: 45vw;
+}
+
+#navitens span {
+  font-size: 80%;
+  padding-left: 1vw;
 }
