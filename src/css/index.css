@@ -3,13 +3,14 @@
 /* BODY */
 
 body {
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
-  width: 80vw;
-  height: 100vh;
   font-family: Poppins;
   margin: 0;
   padding: 0;
+  background-color: rgb(22, 22, 22);
+  flex-direction: column;
+  /* background: linear-gradient(90deg, #ebe00794 0%, #eb90079a 100%); */
 }
 
 /* HEADER
@@ -18,15 +19,23 @@ Parte de cima do site, onde é responsável por toda topbar
 
 */
 
+#absoluto-inicio {
+  height: 100vh;
+}
+
 #headerbar {
-  border: 1px solid red;
-  background-color: rgb(124, 122, 122);
-  width: 100vw;
-  color: aliceblue;
-  height: 8vh;
-  justify-content: center;
-  justify-items: center;
   display: flex;
+  border: 1px solid red;
+  background-color: rgba(82, 81, 81, 0.253);
+  width: 100vw;
+  color: #b9b9b9;
+  position: sticky;
+  height: 8vh;
+  top: 0;
+  z-index: 1000;
+  /* height: 8vh; */
+  /* justify-content: center; */
+  /* justify-items: center; */
 }
 
 #bartop-mid {
@@ -34,32 +43,83 @@ Parte de cima do site, onde é responsável por toda topbar
   width: 100vw;
   align-self: center;
   display: flex;
+  justify-content: space-around;
 }
 
 /* Nome */
 
+#equilibrarnome {
+  display: flex;
+  align-content: center;
+  text-justify: center;
+  align-items: center;
+}
+
+#iconfoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
 #iconmaior {
   width: 1vw;
   height: 1vh;
-  color:;
 }
 
 #iconmenor {
+  padding-left: 2vh;
   width: 1vw;
   height: 1vh;
 }
 
 #nome {
-  padding-left: 15vw;
+  display: flex;
+}
+
+#nomeluann {
+  color: #d32f2f;
+  font-size: 150%;
+}
+
+#nomeeliseu {
+  color: #d32f2f;
+  font-size: 150%;
+  padding-left: 0.4vw;
+  padding-right: -10%;
+}
+
+#nomedev {
+  padding-top: 0.4vw;
+  padding-left: -10%;
+  color: #b9b9b9;
 }
 
 /* OPCOES TOP BAR */
 
 #navitens {
-  padding-left: 45vw;
+  border: 1px solid blue;
+  align-items: center;
 }
 
 #navitens span {
   font-size: 80%;
   padding-left: 1vw;
+}
+
+/* COINTAINER APRESENTACAO */
+
+#cointainer-apresentacao {
+  border: 1px solid magenta;
+}
+
+/* A PARTIR DA PARTE DO SOBREMIM */
+
+#absoluto-sobremim {
+  border: 1px solid rgb(38, 0, 255);
+  height: 100vh;
+}
+
+#absoluto-sobremim div {
+  width: 100%;
+  background-color: #d32f2f;
 }
