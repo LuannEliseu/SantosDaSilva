@@ -121,6 +121,7 @@ Parte de cima do site, onde é responsável por toda topbar
 #divnomeapresentacao {
   display: flex;
   align-self: center;
+  height: 60px;
 }
 
 #nomeapresentacao {
@@ -146,14 +147,15 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #divcargo {
   display: flex;
-  align-content: center;
-  text-justify: center;
-  align-items: center;
+  align-content: flex-end;
+  text-justify: auto;
+  align-items: flex-end;
+  height: 50px;
 }
 
 #cargo {
   color: white;
-  font-size: 80%;
+  font-size: 90%;
   width: 100%;
   text-align: center;
   text-shadow: 1px 1px 5px rgba(112, 3, 3, 0);
@@ -161,10 +163,11 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #divlocalizacao {
   display: flex;
+  height: 50px;
 }
 
 #localizacao {
-  font-size: 50%;
+  font-size: 70%;
   font-weight: normal;
   color: rgb(255, 255, 255);
   width: 100%;
@@ -173,6 +176,56 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #localizacao span {
   color: rgba(255, 255, 255, 0.363);
+}
+
+#divbotoes {
+  display: flex;
+  justify-content: center;
+}
+
+#divsocial {
+  display: flex;
+  justify-content: center;
+}
+
+#github {
+  background-image: url("/src/images/github.png");
+  background-color: rgba(3, 3, 3, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+#linkedin {
+  background-image: url("/src/images/linkedin.png");
+  background-color: rgba(3, 3, 3, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+#ig {
+  background-image: url("/src/images/instagram.png");
+  background-color: rgba(3, 3, 3, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+
+#email {
+  background-image: url("/src/images/email1.png");
+  background-color: rgba(3, 3, 3, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  background-size: cover;
+  width: 46px;
+  height: 46px;
 }
 
 /* A PARTIR DA PARTE DO SOBREMIM */
@@ -189,50 +242,62 @@ Parte de cima do site, onde é responsável por toda topbar
 /* DEBUGS BORDERS PARA MODELAR SITE
           ORDEM DE CRIACAO          */
 
+:root {
+  --valor-debug: 1px;
+}
+
 #headerbar {
-  border: 1px solid red;
+  border: var(--valor-debug) solid red;
 }
 
 #bartop-mid {
-  border: 1px solid green;
+  border: var(--valor-debug) solid green;
 }
 
 #navitens {
-  border: 1px solid blue;
+  border: var(--valor-debug) solid blue;
 }
 
 #cointainer-apresentacao {
-  border: 1px solid rgb(82, 2, 2);
+  border: var(--valor-debug) solid rgb(82, 2, 2);
 }
 
 #bannermid {
-  border: 1px solid green;
+  border: var(--valor-debug) solid green;
 }
 
 #divnomeapresentacao {
-  border: 1px solid yellow;
+  border: var(--valor-debug) solid yellow;
 }
 
 #nomeapresentacao {
-  border: 1px solid red;
+  border: var(--valor-debug) solid red;
 }
 
 #divcargo {
-  border: 1px solid rgb(0, 255, 34);
+  border: var(--valor-debug) solid rgb(0, 255, 34);
 }
 
 #cargo {
-  border: 1px solid rgb(55, 0, 255);
+  border: var(--valor-debug) solid rgb(55, 0, 255);
 }
 
 #divlocalizacao {
-  border: 1px solid rgb(55, 0, 255);
+  border: var(--valor-debug) solid rgb(55, 0, 255);
 }
 
 #localizacao {
-  border: 1px solid rgb(0, 255, 34);
+  border: var(--valor-debug) solid rgb(0, 255, 34);
 }
 
 #absoluto-sobremim {
-  border: 1px solid rgb(38, 0, 255);
+  border: var(--valor-debug) solid rgb(38, 0, 255);
+}
+
+#divbotoes {
+  border: var(--valor-debug) solid darkgreen;
+}
+
+#divsocial {
+  border: var(--valor-debug) solid maroon;
 }
