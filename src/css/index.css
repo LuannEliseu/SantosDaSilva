@@ -17,6 +17,50 @@ body {
   background-repeat: no-repeat;
 }
 
+/* ANIMACAO DE FUNDO */
+
+.glow {
+  position: absolute;
+  inset: 0;
+  box-shadow:
+    inset 0 0 40px rgba(255, 0, 0, 0.4),
+    inset 0 0 80px rgba(255, 0, 0, 0.2);
+  animation: pulse 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* ANIMAÇÕES */
+
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes voltabotao {
+  0% {
+    box-shadow: 0px 0px 0px rgba(8, 8, 8, 0);
+  }
+  25% {
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  }
+  50% {
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  }
+  75% {
+    box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  }
+  100% {
+    box-shadow: 0px 0px 0px rgba(8, 8, 8, 0);
+  }
+}
+
 /* HEADER
 
 Parte de cima do site, onde é responsável por toda topbar
@@ -56,6 +100,14 @@ Parte de cima do site, onde é responsável por toda topbar
   align-content: center;
   text-justify: center;
   align-items: center;
+  transition:
+    transform 0.6s ease-in-out,
+    text-shadow 0.6s ease-in-out;
+}
+
+#equilibrarnome:hover {
+  transform: scale(1.05);
+  text-shadow: 2px 2px 20px rgb(2, 2, 2);
 }
 
 #iconfoto {
@@ -116,6 +168,7 @@ Parte de cima do site, onde é responsável por toda topbar
 #bannermid {
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
 
 #divnomeapresentacao {
@@ -181,11 +234,84 @@ Parte de cima do site, onde é responsável por toda topbar
 #divbotoes {
   display: flex;
   justify-content: center;
+  gap: 30px;
+}
+
+#botaocontato {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, rgb(73, 0, 0));
+  color: white;
+  transition:
+    transform 0.6s ease-in-out,
+    box-shadow 0.6s ease-in-out,
+    text-shadow 0.6s ease-in-out;
+  box-shadow: 0px 0px 0px rgba(8, 8, 8, 0);
+  outline: none;
+  transform: scale(1);
+  text-shadow: 2px 2px 20px rgba(20, 20, 20, 0.87);
+}
+
+#botaocontato:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  text-shadow: 2px 2px 20px rgb(250, 246, 246);
+}
+
+#botaocv {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, rgb(73, 0, 0));
+  color: white;
+  text-shadow: 1px 1px 20px black;
+  transition:
+    transform 0.6s ease-in-out,
+    box-shadow 0.6s ease-in-out,
+    text-shadow 0.6s ease-in-out;
+}
+
+#botaocv:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  text-shadow: 2px 2px 20px rgb(250, 246, 246);
+}
+
+#botaosaiba {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to bottom, rgb(73, 0, 0));
+  color: white;
+  text-shadow: 1px 1px 20px black;
+  transition:
+    transform 0.6s ease-in-out,
+    box-shadow 0.6s ease-in-out,
+    text-shadow 0.6s ease-in-out;
+}
+
+#botaosaiba:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px rgba(255, 0, 0, 0.384);
+  text-shadow: 2px 2px 20px rgb(250, 246, 246);
 }
 
 #divsocial {
   display: flex;
   justify-content: center;
+  gap: 10px;
+}
+
+#divsocial button {
+  transition: transform 0.6s ease-in-out;
+}
+
+#divsocial button:hover {
+  transform: scale(1.2);
 }
 
 #github {
@@ -300,26 +426,4 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #divsocial {
   border: var(--valor-debug) solid maroon;
-}
-
-.glow {
-  position: absolute;
-  inset: 0;
-  box-shadow:
-    inset 0 0 40px rgba(255, 0, 0, 0.4),
-    inset 0 0 80px rgba(255, 0, 0, 0.2);
-  animation: pulse 4s ease-in-out infinite;
-  pointer-events: none;
-}
-
-@keyframes pulse {
-  0% {
-    opacity: 0.7;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.7;
-  }
 }
