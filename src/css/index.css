@@ -10,7 +10,7 @@ body {
   padding: 0;
   background-color: rgb(22, 22, 22);
   flex-direction: column;
-  /* background: linear-gradient(90deg, #ebe00794 0%, #eb90079a 100%); */
+  /* CODIGOS PARA BACKGROUND */
   background-image: url("/src/images/fundo-parede16x.png");
   background-position: center;
   background-size: cover;
@@ -29,21 +29,20 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #headerbar {
   display: flex;
-  border: 1px solid red;
-  background-color: rgba(17, 17, 17, 0.253);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   color: #b9b9b9;
-  position: sticky;
+  position: fixed;
   height: 8vh;
   top: 0;
   z-index: 1000;
+  gap: 300px;
   /* height: 8vh; */
   /* justify-content: center; */
   /* justify-items: center; */
 }
 
 #bartop-mid {
-  border: 1px solid green;
   width: 100%;
   align-self: center;
   display: flex;
@@ -82,7 +81,7 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #nomeluann {
   padding-left: 1vw;
-  color: #d32f2f;
+  color: rgb(71, 4, 4);
   font-size: 150%;
 }
 
@@ -95,8 +94,8 @@ Parte de cima do site, onde é responsável por toda topbar
 /* OPCOES TOP BAR */
 
 #navitens {
-  border: 1px solid blue;
   align-items: center;
+  padding-top: 0.4%;
 }
 
 #navitens span {
@@ -107,7 +106,6 @@ Parte de cima do site, onde é responsável por toda topbar
 /* COINTAINER APRESENTACAO */
 
 #cointainer-apresentacao {
-  border: 1px solid magenta;
   width: 100%;
   height: 100%;
   display: flex;
@@ -115,21 +113,126 @@ Parte de cima do site, onde é responsável por toda topbar
   justify-content: center;
 }
 
+#bannermid {
+  display: flex;
+  flex-direction: column;
+}
+
+#divnomeapresentacao {
+  display: flex;
+  align-self: center;
+}
+
 #nomeapresentacao {
-  border: 1px solid red;
+  font-size: 60px;
   color: white;
   align-self: center;
   text-align: center;
+  text-shadow: 1px 1px 5px rgba(112, 3, 3, 0);
+}
+
+#gradienttext {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(43, 2, 2),
+    rgb(153, 7, 7),
+    rgb(71, 4, 4)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
+}
+
+#divcargo {
+  display: flex;
+  align-content: center;
+  text-justify: center;
+  align-items: center;
+}
+
+#cargo {
+  color: white;
+  font-size: 80%;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(112, 3, 3, 0);
+}
+
+#divlocalizacao {
+  display: flex;
+}
+
+#localizacao {
+  font-size: 50%;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+}
+
+#localizacao span {
+  color: rgba(255, 255, 255, 0.363);
 }
 
 /* A PARTIR DA PARTE DO SOBREMIM */
 
 #absoluto-sobremim {
-  border: 1px solid rgb(38, 0, 255);
   height: 100vh;
 }
 
 #absoluto-sobremim div {
   width: 100%;
-  background-color: #d32f2f;
+  background-color: #d32f2f00;
+}
+
+/* DEBUGS BORDERS PARA MODELAR SITE
+          ORDEM DE CRIACAO          */
+
+#headerbar {
+  border: 1px solid red;
+}
+
+#bartop-mid {
+  border: 1px solid green;
+}
+
+#navitens {
+  border: 1px solid blue;
+}
+
+#cointainer-apresentacao {
+  border: 1px solid rgb(82, 2, 2);
+}
+
+#bannermid {
+  border: 1px solid green;
+}
+
+#divnomeapresentacao {
+  border: 1px solid yellow;
+}
+
+#nomeapresentacao {
+  border: 1px solid red;
+}
+
+#divcargo {
+  border: 1px solid rgb(0, 255, 34);
+}
+
+#cargo {
+  border: 1px solid rgb(55, 0, 255);
+}
+
+#divlocalizacao {
+  border: 1px solid rgb(55, 0, 255);
+}
+
+#localizacao {
+  border: 1px solid rgb(0, 255, 34);
+}
+
+#absoluto-sobremim {
+  border: 1px solid rgb(38, 0, 255);
 }
