@@ -661,7 +661,7 @@ Parte de cima do site, onde é responsável por toda topbar
 
 #absoluto-contato {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   /*background-color: #d32f2f00;
   background-image: linear-gradient(
     rgb(8, 4, 5),
@@ -690,6 +690,7 @@ Parte de cima do site, onde é responsável por toda topbar
   justify-content: center;
   align-items: center;
   align-content: center;
+  gap: 60px;
 }
 
 /* #formulario-absolute {
@@ -744,6 +745,7 @@ Parte de cima do site, onde é responsável por toda topbar
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 
   background-image: linear-gradient(
     rgb(8, 4, 5),
@@ -754,6 +756,7 @@ Parte de cima do site, onde é responsável por toda topbar
 
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
 }
 
 #formulario-meio {
@@ -819,6 +822,8 @@ button:hover {
 }
 
 #footer {
+  height: 3vh;
+  inset: 0;
   width: 100%;
   background: #0b0b0b;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -828,12 +833,11 @@ button:hover {
 }
 
 #footer-container {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 200px;
 }
 
 #footer-left {
@@ -846,13 +850,13 @@ button:hover {
 }
 
 /* responsivo */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #footer-container {
     flex-direction: column;
     gap: 8px;
     text-align: center;
   }
-}
+} */
 
 /* DEBUGS BORDERS PARA MODELAR SITE
           ORDEM DE CRIACAO          */
