@@ -12,7 +12,7 @@ body {
   background-color: rgb(22, 22, 22);
   flex-direction: column;
   /* CODIGOS PARA BACKGROUND */
-  background-image: url("https://raw.githubusercontent.com/LuannEliseu/portif-lio/main/src/images/fundo-parede16x.png?raw=true");
+  background-image: url("https://raw.githubusercontent.com/LuannEliseu/SantosDaSilva/main/src/images/fundo-parede16x.png?raw=true");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -333,7 +333,7 @@ Parte de cima do site, onde é responsável por toda topbar
 }
 
 #github {
-  background-image: url("https://raw.githubusercontent.com/LuannEliseu/portif-lio/main/src/images/github.png?raw=true");
+  background-image: url("https://raw.githubusercontent.com/LuannEliseu/SantosDaSilva/main/src/images/github.png?raw=true");
   background-color: rgba(3, 3, 3, 0);
   border: none;
   color: rgba(0, 0, 0, 0);
@@ -343,7 +343,7 @@ Parte de cima do site, onde é responsável por toda topbar
 }
 
 #linkedin {
-  background-image: url("https://raw.githubusercontent.com/LuannEliseu/portif-lio/main/src/images/linkedin.png?raw=true");
+  background-image: url("https://raw.githubusercontent.com/LuannEliseu/SantosDaSilva/main/src/images/linkedin.png?raw=true");
   background-color: rgba(3, 3, 3, 0);
   border: none;
   color: rgba(0, 0, 0, 0);
@@ -353,7 +353,7 @@ Parte de cima do site, onde é responsável por toda topbar
 }
 
 #ig {
-  background-image: url("https://raw.githubusercontent.com/LuannEliseu/portif-lio/main/src/images/instagram.png?raw=true");
+  background-image: url("https://raw.githubusercontent.com/LuannEliseu/SantosDaSilva/main/src/images/instagram.png?raw=true");
   background-color: rgba(3, 3, 3, 0);
   border: none;
   color: rgba(0, 0, 0, 0);
@@ -363,7 +363,7 @@ Parte de cima do site, onde é responsável por toda topbar
 }
 
 #email {
-  background-image: url("https://raw.githubusercontent.com/LuannEliseu/portif-lio/main/src/images/email1.png?raw=true");
+  background-image: url("https://raw.githubusercontent.com/LuannEliseu/SantosDaSilva/main/src/images/email1.png?raw=true");
   background-color: rgba(3, 3, 3, 0);
   border: none;
   color: rgba(0, 0, 0, 0);
