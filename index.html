@@ -21,11 +21,11 @@
               <span id="nomedev">.dev</span>
           </a>
           <nav id="navitens">
-            <span>Início</span>
-            <span>Sobre mim</span>
-            <span>Formação</span>
-            <span>Portifólio</span>
-            <span>Contato</span>
+            <a id="itensdonav" href="#absoluto-inicio">Início</a>
+            <a id="itensdonav" href="#absoluto-sobremim">Sobre mim</a>
+            <a id="itensdonav" href="#absoluto-habilidades">Formação</a>
+            <a id="itensdonav" href="#absoluto-portifolio">Portifólio</a>
+            <a id="itensdonav" href="#absoluto-contato">Contato</a>
           </nav>
         </div>
       </nav>
@@ -35,15 +35,15 @@
         <div id="divcargo"><h2 id="cargo"><span id="gradienttext">Estudante de Análise de Desenvolvimento de Sistemas</span></h2></div>
         <div id="divlocalizacao"><h3 id="localizacao">🌍 <span>Rio Grande do Sul, Brasil</span></h3></div>
         <div id="divbotoes">
-          <button id="botaocontato">Entre em contato</button>
-          <button id="botaocv">Download CV</button>
-          <button id="botaosaiba">Saiba mais</button>
+          <a id="botaocontato" href="#absoluto-contato">Entre em contato</a>
+          <button id="botaocv" onclick="location.href='https://drive.google.com/file/d/1UwhNOJP-yxN2wSe9cO7D5XKA4futQe6s/view?usp=sharing'" >Download CV</button>
+          <a id="botaosaiba" href="#absoluto-sobremim">Saiba mais</a>
         </div>
         <div id="divsocial">
-          <button id="github" onclick=""></button>
-          <button id="linkedin"> </button>
-          <button id="ig"></button>
-          <button id="email"></button>
+          <button id="github" onclick="location.href='https://github.com/LuannEliseu'"></button>
+          <button id="linkedin" onclick="location.href='https://www.linkedin.com/in/luann-eliseu-santos-da-silva-5a6b44279/'"> </button>
+          <button id="ig" onclick="location.href='https://www.instagram.com/luanh.png/'"></button>
+          <button id="email" onclick="copiarTexto()"></button>
         </div>
         </div>
       </div>
@@ -160,14 +160,14 @@
               <form>
               <div id="formulario-meio">
                 <h3>> Envie uma mensagem</h3>
-                <label for="meia-form" id="label-form">Nome</label>
-                <input id="meia-form" required>
-                <label for="meia-form" id="label-form">Email</label>
-                <input id="meia-form" required>
-                <label class="labelblock" id="desc-form">Assunto</label>
-                <input id="meia-form" required>
-                <label class="labelblock" id="desc-form">Mensagem</label>
-                <input id="meia-form" required>
+                <label for="nome-form" id="label-form">Nome</label>
+                <input id="nome-form" class="meia-form" required>
+                <label for="email-form" id="label-form">Email</label>
+                <input id="email-form" class="meia-form" required>
+                <label for="assunto-form" class="labelblock" id="desc-form">Assunto</label>
+                <input id="assunto-form" class="meia-form" required>
+                <label for="mensagem-form" class="labelblock" id="desc-form">Mensagem</label>
+                <input id="mensagem-form" class="meia-form" required>
                 <br>
                 <button>Clique para Enviar</button>
               </div>

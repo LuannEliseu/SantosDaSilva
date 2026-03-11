@@ -25,3 +25,5 @@ Realização de DEBUGS no final da pagina do index.css
 9/3/2026 - Desenvolvendo as partes, Formação, Portifólio, Contato com agilidade, e a partir de hoje começar a já desenvolver aplicação para celular e analisar possível bugs da pagina contato e seguir adiante com o javascript para validação e @media para redimensionar.
 
 10/3/2026 - Acrescentado acessibilidade para aparelhos de celular a princípio sem bugs, e configurado @media para dispositivos móveis, falta aplicar para notebooks, a príncipio tudo ok, falta apenas criar botões para redirecionar dentro da pagina e botões funcionais e script para verificar o que está na caixa do formulario
+
+11/3/2026 - Arrumado bug do formulario e arrumado interação de botões faltando apenas a questão do formulario.
