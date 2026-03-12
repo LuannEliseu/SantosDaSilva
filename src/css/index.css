@@ -20,22 +20,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/* .bg {
-  position: absolute;
-}
-
-.glow {
-  position: absolute;
-  inset: 0;
-  box-shadow:
-    inset 0 0 40px rgba(255, 0, 0, 0.4),
-    inset 0 0 80px rgba(255, 0, 0, 0.2);
-  animation: pulse 4s ease-in-out infinite;
-  pointer-events: none;
-  z-index: 1000;
-} */
-
 /* ANIMAÇÕES */
 
 @keyframes pulse {
@@ -68,11 +52,13 @@ body {
   }
 }
 
+/* UMA TAG PARA USAR EM ALGUMAS PALAVRAS */
+
 .bold {
   font-weight: bold;
 }
 
-/* HEADER
+/* HEADER E INICIO DA PAGINA
 
 Parte de cima do site, onde é responsável por toda topbar
 
@@ -496,19 +482,11 @@ Parte de cima do site, onde é responsável por toda topbar
   height: 20%;
 }
 
+/* PARTE DE FORMACAO */
+
 #absoluto-habilidades {
   width: 100%;
   height: 60vh;
-  /*background-color: #d32f2f00;
-  background-image: linear-gradient(
-    rgb(8, 4, 5),
-    rgb(28, 1, 3),
-    rgb(50, 2, 8),
-    rgb(50, 2, 8),       rgb(28, 1, 3),
-    rgb(50, 2, 8), 
-    rgb(28, 1, 3),
-    rgb(8, 4, 5)
-  ); */
   background-image: url("/src/images/fundo-parede16x.png");
   background-position: center;
   background-size: cover;
@@ -600,25 +578,15 @@ Parte de cima do site, onde é responsável por toda topbar
   text-align: center;
 }
 
+/* PARTE DE PORTIFOLIO */
+
 #absoluto-portifolio {
   width: 100%;
   height: 60vh;
-  /*background-color: #d32f2f00;
+
   background-image: linear-gradient(
     rgb(8, 4, 5),
     rgb(28, 1, 3),
-    rgb(50, 2, 8),
-    rgb(50, 2, 8),       rgb(28, 1, 3),
-    rgb(50, 2, 8), 
-    rgb(28, 1, 3),
-    rgb(8, 4, 5)
-  ); */
-  background-image: linear-gradient(
-    rgb(8, 4, 5),
-    rgb(28, 1, 3),
-    /* rgb(50, 2, 8),
-    rgb(50, 2, 8),       rgb(28, 1, 3),
-    rgb(50, 2, 8), */
     rgb(28, 1, 3),
     rgb(8, 4, 5)
   );
@@ -682,19 +650,11 @@ Parte de cima do site, onde é responsável por toda topbar
   text-align: center;
 }
 
+/* PARTE DE CONTATO */
+
 #absoluto-contato {
   width: 100%;
   height: 110vh;
-  /*background-color: #d32f2f00;
-  background-image: linear-gradient(
-    rgb(8, 4, 5),
-    rgb(28, 1, 3),
-    rgb(50, 2, 8),
-    rgb(50, 2, 8),       rgb(28, 1, 3),
-    rgb(50, 2, 8), 
-    rgb(28, 1, 3),
-    rgb(8, 4, 5)
-  ); */
   background-image: url("/src/images/fundo-parede16x.png");
   background-position: center;
   background-size: cover;
