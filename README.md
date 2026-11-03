@@ -1,31 +1,93 @@
-[DOCUMENTAÇÃO]
+# 💻 Portfólio — Luann Eliseu
 
-src/css = Nessa parte é onde fica todas configurações de site da parte design
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido com o objetivo de apresentar minha trajetória profissional, formação acadêmica, habilidades técnicas e projetos desenvolvidos na área de tecnologia.
 
-src/images = Nessa parte fica todas imagens utilizadas no site
+O site reúne informações sobre minha experiência com suporte técnico, telecomunicações e desenvolvimento de sistemas, além de demonstrar minha evolução constante na área de TI.
 
-src/scripts = Nessa parte fica onde está os scrips em JS do site
+## 🚀 Tecnologias utilizadas
 
-index.html = onde fica a parte HTML
+- **HTML5** — Estruturação das páginas.
+- **CSS3** — Estilização, layout, animações e responsividade.
+- **JavaScript** — Interatividade, validações e funcionalidades.
+- **WhatsApp** — Integração para recebimento de mensagens pelo formulário de contato.
 
-[Algumas regras no codigo]
+## 📌 Funcionalidades
 
-Realização de DEBUGS no final da pagina do index.css
+- Apresentação pessoal e profissional.
+- Seção Sobre Mim.
+- Formação acadêmica.
+- Portfólio de projetos.
+- Página de contato.
+- Formulário com validação em JavaScript.
+- Redirecionamento de mensagens para o WhatsApp.
+- Layout responsivo para dispositivos móveis.
+- Navegação entre as seções do site.
 
-[HISTÓRICO]
+## 📂 Estrutura do projeto
 
-02/03/2026 - Decidido criar README.md com histórico constante, até o momento, realizado divs na pagina de apresentação e ainda em constante em desenvolvimento, pretenção de acabar ainda hoje para seguir com o restante das paginas, as cores princípais do site serão com foco em preto e vermelho.
+```text
+portfolio/
+│
+├── src/
+│   ├── css/
+│   │   └── Arquivos de estilização
+│   │
+│   ├── images/
+│   │   └── Imagens do projeto
+│   │
+│   └── scripts/
+│       └── Scripts JavaScript
+│
+├── index.html
+├── README.md
+└── CHANGELOG.md
+```
 
-4/3/2026 - Realizado começo para montagem do sobre mim, decido possívelmente background image para focalizar o texto e montando texto de apresentação, também mudado de Sobre -> Sobre mim e Projeto -> Portifólio e arrumado bug de position dos absolute.
+## 🎨 Identidade visual
 
-5/3/2026 - Desenvolvendo as aplicações da pagina do sobre mim
+O projeto utiliza uma identidade visual com predominância das cores **preto e vermelho**, buscando transmitir modernidade, tecnologia e profissionalismo.
 
-6/3/2026 - Analisando ideias de como vai ficar o site e seguindo regras do trabalho
+A interface foi desenvolvida considerando a experiência do usuário, organização dos elementos e adaptação para diferentes tamanhos de tela.
 
-9/3/2026 - Desenvolvendo as partes, Formação, Portifólio, Contato com agilidade, e a partir de hoje começar a já desenvolver aplicação para celular e analisar possível bugs da pagina contato e seguir adiante com o javascript para validação e @media para redimensionar.
+## 📱 Responsividade
 
-10/3/2026 - Acrescentado acessibilidade para aparelhos de celular a princípio sem bugs, e configurado @media para dispositivos móveis, falta aplicar para notebooks, a príncipio tudo ok, falta apenas criar botões para redirecionar dentro da pagina e botões funcionais e script para verificar o que está na caixa do formulario
+O site possui adaptações para dispositivos móveis utilizando CSS Media Queries, permitindo uma navegação adequada em diferentes resoluções.
 
-11/3/2026 - Arrumado bug do formulario e arrumado interação de botões faltando apenas a questão do formulario.
+## 🛠️ Como executar o projeto
 
-12/3/2026 - Arrumado o bugs e gerado o formulario para envio a partir do formulario para whatsapp e documentado o codigo. Assim encerrado!
+1. Clone este repositório:
+
+```bash
+git clone URL_DO_REPOSITORIO
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd portfolio
+```
+
+3. Abra o arquivo `index.html` no navegador.
+
+Também é possível utilizar a extensão **Live Server** do Visual Studio Code para executar o projeto durante o desenvolvimento.
+
+## 📋 Histórico de desenvolvimento
+
+O histórico de alterações, correções e novas funcionalidades está disponível no arquivo [CHANGELOG.md](CHANGELOG.md).
+
+## 👨‍💻 Autor
+
+**Luann Eliseu**
+
+Estudante de Análise e Desenvolvimento de Sistemas na UNINTER, com experiência em suporte técnico e telecomunicações e interesse em desenvolvimento de software, infraestrutura e redes.
+
+- GitHub: [Adicionar perfil](https://github.com/)
+- LinkedIn: [Adicionar perfil](https://linkedin.com/)
+
+---
+
+<p align="center">
+  Desenvolvido por <strong>Luann Eliseu</strong> 💻
+  <br>
+  Em constante evolução.
+</p>
